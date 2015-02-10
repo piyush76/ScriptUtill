@@ -1,5 +1,14 @@
 #!/usr/bin/perl -w
 
+##########################################################
+#@auther Piyush Gupta
+#Script to get the list of services running on your hosts
+#usage: ./getServiceList <stop|start|restart|service>
+#Generate restart-services.txt,start-services.txt,stop-services.txt
+##takes hostlist.txt
+#
+##########################################################
+
 use Cwd;
 use File::Path;
 use Getopt::Std;
